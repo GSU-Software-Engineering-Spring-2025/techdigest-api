@@ -8,7 +8,6 @@ This is a FastAPI-based backend for aggregating and serving the latest technolog
 - Retrieve category-specific articles (e.g., AI, ML, Blockchain)
 - Parses and returns simplified article data with summaries
 - CORS-enabled for easy frontend integration
-- Ready for deployment on Heroku
 
 ---
 
