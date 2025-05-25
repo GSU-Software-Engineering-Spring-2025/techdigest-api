@@ -3,8 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from eventregistry import EventRegistry, QueryArticlesIter
 import logging
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
 import os
 
+load_dotenv()
 app = FastAPI()
 
 app.add_middleware(
@@ -28,7 +30,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Initialize EventRegistry client
-er = EventRegistry(apiKey="812fa6b8-257c-4b3c-a6b4-55f412e1050a")
+er = EventRegistry(apiKey=os.getenv("EVENT_REGISTRY_KEY"))
 
 # Define date range - last 2 years (730 days)
 forceMaxDataTimeWindow = "730"
