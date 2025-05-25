@@ -25,5 +25,5 @@ This is a FastAPI-based backend for aggregating and serving the latest technolog
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-org/your-repo.git
+   git clone https://github.com/GSU-Software-Engineering-Spring-2025/techdigest-api
    cd your-repo
