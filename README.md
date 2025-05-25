@@ -1,6 +1,6 @@
 # 📰 Tech Digest API
 
-This is a FastAPI-based backend for aggregating and serving the latest technology-related articles using the [EventRegistry API](https://eventregistry.org/). It supports categories like AI, Blockchain, IoT, Quantum Computing, and more.
+This is a FastAPI-based backend for aggregating and serving the latest technology-related articles, using the [EventRegistry API](https://eventregistry.org/), to the Tech Digest application. It supports categories like AI, Blockchain, IoT, Quantum Computing, and more.
 
 ## 🚀 Features
 
